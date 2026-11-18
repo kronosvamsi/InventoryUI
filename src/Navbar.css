@@ -1,0 +1,15 @@
+.nav-container {
+  height: 80px;
+  display: flex;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f172a;
+  color: #f8fafc;
+  border-bottom: solid 2px #334155;
+}
+.nav-right {
+  display: flex;
+  gap: 20px;
+}

@@ -1,0 +1,23 @@
+.page-header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.page-title {
+  display: flex;
+  flex-direction: column;
+}
+.page-title p {
+  font-size: 14px;
+}
+.add-product-btn {
+  padding: 10px;
+  background-color: #2563eb;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+.add-product-btn:hover {
+  background-color: #1858e2;
+}

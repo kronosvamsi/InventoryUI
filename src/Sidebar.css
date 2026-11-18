@@ -1,0 +1,33 @@
+/* Sidebar CSS */
+
+.side-container {
+  background-color: #172554;
+  height: 100%;
+}
+.side-Nav ul {
+  padding: 25px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.side-Nav li {
+  list-style-type: none;
+  font-size: 18px;
+  padding: 5px;
+}
+.side-link {
+  text-decoration: none;
+  color: whitesmoke;
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+}
+.side-link:hover {
+  background-color: #1e3a8a;
+}
+
+.side-active {
+  color: white;
+  font-weight: bold;
+  background-color: #2563eb;
+}

@@ -1,0 +1,11 @@
+.Card-container {
+  display: flex;
+  height: 150px;
+  width: 250px;
+  background-color: rgb(119, 119, 238);
+  border-radius: 5px;
+ 
+}
+.card-details {
+  flex-grow: 1;
+}
